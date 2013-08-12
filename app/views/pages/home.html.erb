@@ -1,6 +1,6 @@
 <% if user_signed_in? %>
 	<div class="hero-unit">
-		<h1> Welcome to Dengtopia!</h1>
+		<%= link_to "View Pins", pins_path, class: "btn btn-primary btn-large" %>
 	</div>
 <% else %>
 	<div class="hero-unit">
